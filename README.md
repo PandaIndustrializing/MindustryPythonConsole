@@ -1,5 +1,5 @@
 # MindustryPythonConsole
-MindustryPythonConsole is a remade and inspired by Mindustry by Anuke
+MindustryPythonConsole is a remade and inspired by Mindustry by Anuken
 
 # Mindustry Main Server
 
