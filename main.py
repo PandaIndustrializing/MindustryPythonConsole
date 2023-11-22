@@ -11,10 +11,14 @@ Class Player:
  
   def save(self)
     self.data = {
-      'name' : name,
-      'resources' : resources
+      'P.name' : name,
+      'P.resources' : resources
     }
-  
+    
+    return self.data
   def load(self)
     with open('Database.json', 'r') as file:
-  
+      data = json.load(file)
+      
+      self.name = data.get('P.name')
+      self.resources = data.get('P.resources')
